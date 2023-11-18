@@ -1,0 +1,14 @@
+print("Calculator:")
+n=input("Enter Expression to Calculate:")
+print("Your Result is:",eval(n))
+x=input("Lets do next calculation?(yes/no):")
+if x=="yes":
+  while True:
+    n=input("Enter Expression to Calculate:")
+    print("Your Result is:",eval(n))
+    x=input("Lets do next calculation?(yes/no):")
+    if x=="no":
+      print("Thank You")
+      break
+else:
+    print("Thank You")
